@@ -1,0 +1,19 @@
+MP3Stego Dataset Creation
+
+1. Zenodo acoustic scene dataset downloaded from the link: https://zenodo.org/records/4060432
+2. Random messages are generated to hide the data
+2. The MP3Stego tool is used to create stego files: https://www.petitcolas.net/steganography/mp3stego/
+
+
+Executing Commands: 
+
+encode -E hidden_text.txt -P pass svega.wav svega_stego.mp3
+
+compresses svega.wav (mono, 44.1 kHz, 16bit encoded) and hides hidden_text.txt. The hidden text is encrypted using pass as a password. This produces the output called svega_stego.mp3. If no information was hidden, you would obtain this.
+
+decode -X -P pass svega_stego.mp3
+
+uncompresses svega_stego.mp3 into svega_stego.mp3.pcm and attempts to extract hidden information. The hidden message is decrypted, uncompressed and saved into svega_stego.mp3.txt.
+
+Reference
+[1] Ross J. Anderson and Fabien A.P. Petitcolas. On The Limits of Steganography. IEEE Journal of Selected Areas in Communications, 16(4):474-481, May 1998. Special Issue on Copyright & Privacy Protection. ISSN 0733-8716.
