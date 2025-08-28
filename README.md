@@ -25,7 +25,7 @@ We propose MFCCResNet, a deep residual network enhanced with squeeze-and-excitat
 
 2. HMMSec2024 dataset (benchmark stego MP3 audio). **Link:** https://cloud.ovgu.de/s/pYGzb8EzeM2ZMWr
 
-3. In-house dataset (converted from Zenodo acoustic scene dataset (https://github.com/stella-ap/MFCCResNet) + stego embedded with MP3Stego(https://github.com/stella-ap/MFCCResNet)).
+3. In-house dataset (converted from Zenodo acoustic scene dataset (https://github.com/stella-ap/MFCCResNet) + stego embedded with MP3Stego(https://github.com/stella-ap/MFCCResNet).
 
 **Guidelines for dataset preparation are included in the repository.**
 
