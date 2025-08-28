@@ -1,0 +1,5 @@
+gobuster dir -u http://210.147.3.187 -w /usr/share/wordlists/dirb/common.txt
+nmap -sV -p 1-1024 60.41.44.138
+sudo -l
+hydra -l admin -P rockyou.txt 249.231.211.15 ssh
+sudo -l

